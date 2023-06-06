@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Page Header*/
+.header {
+    color: white;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left a{
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    display: flex;
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.left p {
+    color: #f9fAf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
