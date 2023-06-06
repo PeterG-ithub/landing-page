@@ -167,3 +167,13 @@ h3{
     border: 3px #e5e7eb solid;
     border-radius: 0.5em;
 }
+
+/* footer*/
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
