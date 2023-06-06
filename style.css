@@ -69,21 +69,15 @@ h1 {
     flex: auto;
 }
 
-.content-box-one .text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 .content-box-one .text p {
     filter: contrast(75%);
+    margin: 10px 0px;
 }
 .content-box-one button {
     background-color: #3882f9;
     color:#f9fAf8;
-    padding: 5px;
+    padding: 5px 15px;
     font-size: 20px;
-    max-width: 300px;
 }
 
 .content-box-one img {
