@@ -6,7 +6,7 @@
 
 /* Page Header*/
 .header {
-    color: white;
+    color: #f9fAf8;
     background-color: #1f2937;
     font-size: 18px;
 }
@@ -47,3 +47,46 @@ a {
     text-decoration: none;
 }
 
+/* Content box one*/
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-box-one {
+    color: #f9fAf8;
+    background-color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    gap: 60px;
+    padding: 10px 80px;
+    padding-bottom: 60px;
+    flex: auto;
+}
+
+.content-box-one .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-box-one .text p {
+    filter: contrast(75%);
+}
+.content-box-one button {
+    background-color: #3882f9;
+    color:#f9fAf8;
+    padding: 5px;
+    font-size: 20px;
+    max-width: 300px;
+}
+
+.content-box-one img {
+    width: 500px;
+    height: auto;
+}
